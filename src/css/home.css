@@ -10,20 +10,28 @@
    font-family: var(--font-caveat-body);
    list-style-type: none;
    gap: 10px;
+
+
 }
 ul li{
+    margin-top: 10px;
     padding: 10px 20px;
     /* background-color: red; */
 }
 li a{
     font-size: 22px;
+    opacity: 0.6;
     text-decoration: none;
     color: var(--color-brown);
     transition: 0.3s ease;
 }
 li a:hover{
     text-decoration: underline;
-    opacity: 0.8;
+    opacity: 1;
+}
+li a:active{
+    text-decoration: underline;
+    opacity: 1;
 }
 #name{
     font-size: 30px;
@@ -36,22 +44,47 @@ li a:hover{
     justify-content: space-between;
     align-items: center;
     margin-top: 10%;
+    animation: fadeIn 2s ease forwards;
 
 }
 img{
     width: 700px;
 }
 .introText{
-     margin: 0px auto;
-    width: fit-content;
-    height: 200px;
-    overflow: hidden;
-    /* background-color: red; */
-}
-.intro{
-    /* background: yellow; */
     margin: 0px auto;
-    font-size: 23px;
-    font-weight: bold;
-    line-height: 1.5;
+    width: fit-content;
+    overflow: hidden;
+    /* position: sticky;
+    top: 0; */
+    /* background: red; */
+    animation: fadeIn 2s ease forwards;
+}
+.line {
+  font-size: 24px;
+  display: block;
+  line-height: 1.15;
+  opacity: 0.5;
+  color: var(--color-brown);
+   transition: opacity 0.1s linear;
+
+}
+
+.name {
+    color: black;
+  opacity: 1;
+  font-size: 29px;
+  /* font-weight: bold; */
+
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to{
+     opacity: 1;
+     transform: translateY(0);
+    }
+    
 }

@@ -13,3 +13,6 @@
   --font-caveat-body:  "Caveat", cursive;
 }
 
+body{
+  background-color: var(--color-cream);
+}
