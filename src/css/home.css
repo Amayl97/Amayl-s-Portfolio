@@ -1,0 +1,32 @@
+.homeSection{
+    background-color: var(--color-cream);
+    min-height: 100vh;
+}
+
+.navbar ul{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: var(--font-caveat-body);
+   list-style-type: none;
+   gap: 10px;
+}
+ul li{
+    padding: 10px 20px;
+    /* background-color: red; */
+}
+li a{
+    font-size: 22px;
+    text-decoration: none;
+    color: var(--color-brown);
+    transition: 0.3s ease;
+}
+li a:hover{
+    text-decoration: underline;
+    opacity: 0.8;
+}
+#name{
+    font-size: 30px;
+    font-weight: bolder;
+    /* background: red; */
+}

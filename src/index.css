@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+  --color-brown: #513229;
+  --color-cream: #F4F1E2;
+  --color-blue: #D8EBF9;
+  --color-yellow: #FCE6B7;
+  --color-sage: #D7D4B1;
+  --font-caveat-body:  "Caveat", cursive;
+}
+
