@@ -40,3 +40,46 @@
     transform: translateY(10px);
  }
 }
+
+
+
+/* Tablets and smaller */
+@media (max-width: 900px) {
+  #aboutSection {
+    height: auto;          /* let content decide the height */
+    min-height: 90vh;
+    padding: 40px 20px;
+    box-sizing: border-box;
+  }
+
+  .gridDiv {
+    flex-direction: column; /* stack image and text */
+    gap: 20px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .gridDiv p {
+    font-size: 20px;
+  }
+
+  .aboutImg {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+/* Phones */
+@media (max-width: 480px) {
+  #aboutSection {
+    padding: 30px 15px;
+  }
+
+  .gridDiv p {
+    font-size: 18px;
+  }
+
+  .aboutImg {
+    max-width: 240px;
+  }
+}
