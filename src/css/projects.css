@@ -79,3 +79,68 @@
     text-decoration-style: wavy;
     text-decoration-color: var(--color-brown);
 }
+
+/* Tablets and smaller */
+@media (max-width: 900px) {
+  #projectSection {
+    height: auto;             /* let content decide the height */
+    min-height: 90vh;
+    padding: 40px 20px;
+    box-sizing: border-box;
+  }
+
+  .headingProject {
+    font-size: 26px;
+    padding: 16px;
+    border-width: 6px;
+  }
+
+  .showcase {
+    width: 100%;
+  }
+
+  .projectDiv {
+    flex-wrap: wrap;          /* cards drop to the next row when they run out of space */
+    gap: 20px;
+    padding: 10px 0;
+  }
+
+  .projectImg {
+    width: 200px;
+  }
+}
+
+/* Phones */
+@media (max-width: 480px) {
+  #projectSection {
+    padding: 30px 15px;
+  }
+
+  .headingProject {
+    font-size: 22px;
+    padding: 12px;
+    border-width: 5px;
+  }
+
+  .projectDiv {
+    flex-direction: column;   /* one card per row */
+    gap: 25px;
+  }
+
+  .project {
+    width: 100%;
+    max-width: 280px;
+    box-sizing: border-box;
+    border-width: 8px;
+  }
+
+  .projectImg {
+    width: 100%;
+    max-width: 220px;
+  }
+
+  .project p {
+    width: 100%;              /* match the card instead of a fixed 150px */
+    box-sizing: border-box;
+  }
+}
