@@ -33,7 +33,7 @@ return () => {
             <a href="#home">Home</a>
           </li>
           <li>
-            <a href="projectSection">Projects</a>
+            <a href="#projectSection">Projects</a>
           </li>
           <li id="name">Amayl</li>
           <li>

@@ -15,41 +15,41 @@ export default function Projects() {
 
           <ul className="projectList">
             <li>
-              <a href="https://github.com/Amayl97/Layover-Web-App.git">Layover:</a> A virtual photo booth featuring photo
+              <a href="https://github.com/Amayl97/Layover-Web-App.git" target="_blank">Layover:</a> A virtual photo booth featuring photo
               layouts, stickers, and downloadable photo strips. ↗
             </li>
 
             <li>
-              <a href="https://github.com/Amayl97/College-Hub.git">College Hub:</a> A student-focused website designed to
+              <a href="https://github.com/Amayl97/College-Hub.git" target="_blank">College Hub:</a> A student-focused website designed to
               make college-related information easier to access. ↗
             </li>
 
             <li>
-              <a href="https://github.com/Amayl97/Halal-Food-Scanner.git">Halal Food Scanner:</a> A food-scanning concept
+              <a href="https://github.com/Amayl97/Halal-Food-Scanner.git" target="_blank">Halal Food Scanner:</a> A food-scanning concept
               designed to help users check product ingredients and identify
               potentially non-halal ingredients. ↗
             </li>
 
             <li>
-              <a href="https://github.com/Amayl97/Dayloom.git">Dayloom:</a> A mindful productivity experience
+              <a href="https://github.com/Amayl97/Dayloom.git" target="_blank">Dayloom:</a> A mindful productivity experience
               encouraging users to take breaks and build healthier screen-time
               habits. ↗
             </li>
 
             <li>
-              <a href="https://github.com/Amayl97/Habit-Tracker-in-ReactJs.git">Habit Tracker:</a> A simple habit-tracking application
+              <a href="https://github.com/Amayl97/Habit-Tracker-in-ReactJs.git" target="_blank">Habit Tracker:</a> A simple habit-tracking application
               designed to help users build routines and monitor their daily
               progress. ↗
             </li>
 
             <li>
-              <a href="https://github.com/Amayl97/Photo-Booth_Workshop-Project.git">Photo Booth:</a> An interactive web photo booth
+              <a href="https://github.com/Amayl97/Photo-Booth_Workshop-Project.git" target="_blank">Photo Booth:</a> An interactive web photo booth
               inspired by Korean photo booths, with customizable layouts,
               stickers, and downloadable photos. ↗
             </li>
 
             <li>
-              <a href="https://github.com/Amayl97/Interactive-Envelope-Card-Web-App.git">Interactive Envelope Web Card:</a> An interactive
+              <a href="https://github.com/Amayl97/Interactive-Envelope-Card-Web-App.git" target="_blank">Interactive Envelope Web Card:</a> An interactive
               digital greeting card featuring an animated envelope that opens to
               reveal a personal message. ↗
             </li>
