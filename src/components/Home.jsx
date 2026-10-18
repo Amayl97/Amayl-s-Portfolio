@@ -30,17 +30,17 @@ return () => {
       <div className="navbar">
         <ul>
           <li>
-            <a href="home">Home</a>
+            <a href="#home">Home</a>
           </li>
           <li>
-            <a href="#">Projects</a>
+            <a href="projectSection">Projects</a>
           </li>
           <li id="name">Amayl</li>
           <li>
-            <a href="#">About</a>
+            <a href="#aboutSection">About</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="#footerSection">Contact</a>
           </li>
         </ul>
       </div>

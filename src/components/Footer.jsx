@@ -12,7 +12,7 @@ export default function Footer() {
 
         <ul className="footerLinks">
           <li>
-            <a href="mailto:your-email@example.com">Email ↗</a>
+            <a href="mailto:amayltariq005@gmail.com">Email ↗</a>
           </li>
           <li>
             <a href="https://github.com/Amayl97" target="_blank" rel="noreferrer">
@@ -20,7 +20,7 @@ export default function Footer() {
             </a>
           </li>
           <li>
-            <a href="YOUR_LINKEDIN_URL" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/amayl-tariq-b533b52a1/" target="_blank" rel="noreferrer">
               LinkedIn ↗
             </a>
           </li>
