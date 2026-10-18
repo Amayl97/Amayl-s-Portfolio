@@ -8,6 +8,6 @@ A personal portfolio showcasing my projects, skills, and creative side as a soft
 - Vite
 
 ### ✿ Live Website
-[Visit My Portfolio]([YOUR_VERCEL_URL](https://amaylportfolio.vercel.app))
+https://amaylportfolio.vercel.app
 
 *Built with code, creativity, and a little bit of magic. ♡*
