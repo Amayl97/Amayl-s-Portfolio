@@ -1,4 +1,5 @@
 import "../css/projects.css";
+import projectImg from "../assets/amayl_projects_collage.png";
 
 export default function Projects() {
   return (
@@ -8,7 +9,7 @@ export default function Projects() {
       <div className="showcase">
         <div className="projectDiv">
           <div className="project">
-            <img src="../src/assets/coffee.jpg" alt="" className="projectImg" />
+            <img src={projectImg} alt="projectImg" className="projectImg" />
             <p>Websites</p>
             <p>Built with love</p>
           </div>

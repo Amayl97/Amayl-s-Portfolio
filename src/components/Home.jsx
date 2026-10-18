@@ -1,5 +1,6 @@
 import "../css/home.css";
 import { useEffect } from "react";
+import bgGif from "../assets/autumn_picnic-3.gif";
 
 export default function Home() {
   useEffect(() => {
@@ -46,7 +47,7 @@ return () => {
       </div>
 
       <div className="hero">
-        <img src="../src/assets/autumn_picnic-3.gif" alt="" />
+        <img src={bgGif} alt="" />
         <div className="introText">
           <p className="intro">
             <span className="line name">Hello, I'm Amayl.</span>
