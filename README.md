@@ -10,4 +10,7 @@ A personal portfolio showcasing my projects, skills, and creative side as a soft
 ### ✿ Live Website
 https://amaylportfolio.vercel.app
 
+![Uploading Screenshot 2026-11-02 at 7.59.10 PM.png…]()
+
+
 *Built with code, creativity, and a little bit of magic. ♡*
